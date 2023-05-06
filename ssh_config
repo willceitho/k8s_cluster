@@ -1,0 +1,17 @@
+Host *
+    StrictHostKeyChecking no
+
+Host km
+    HostName 192.168.88.160
+    User root
+    IdentityFile C:\Users\user\.ssh\id_rsa
+
+Host kw1
+    HostName 192.168.88.161
+    User root
+    IdentityFile C:\Users\user\.ssh\id_rsa
+
+Host kw2
+    HostName 192.168.88.162
+    User root
+    IdentityFile C:\Users\user\.ssh\id_rsa
